@@ -1,0 +1,23 @@
+{
+  "name": "backend-nodejs-class",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Brun0Nasc/backend-nodejs-class.git",
+  "author": "Bruno do Nascimento de Brito <104685758+Brun0Nasc@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/server.ts"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.21.4",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "sequelize-cli": "^6.4.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
